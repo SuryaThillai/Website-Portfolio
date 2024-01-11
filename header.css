@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 30px;
+}
+
+.pages{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    place-items: center;
+}
+
+.pages p {
+    cursor: pointer;
+} 
+
+.btn {
+    background-color: rgb(252, 224, 66);
+    color:black;
+    padding: 13px 25px 13px 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.moto {
+    font-size: 60px;
+    display: inline-block;
+    position: relative;
+    left: 220px;
+    top: 50px;
+    width:700px;
+    font-weight: lighter;
+}
+
+.des {
+    font-size: 18px;
+    position: relative;
+    left: 220px;
+    width: 550px;
+    font-weight: normal;
+   
+}
